@@ -1,7 +1,7 @@
 ## Project Title
 # Basic-Login-Page
 
-#Full Stack Login Authentication System
+# Full Stack Login Authentication System
 
 ## Project Overview
 
