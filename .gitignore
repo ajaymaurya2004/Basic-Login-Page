@@ -1,0 +1,55 @@
+# =========================
+# 🔹 Python / Flask
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Flask instance folder
+instance/
+
+# Database
+*.db
+*.sqlite3
+
+# =========================
+# 🔹 Node / React / Vite
+# =========================
+node_modules/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite cache
+.vite/
+
+# =========================
+# 🔹 OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🔹 Editor / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# 🔹 Misc
+# =========================
+coverage/
+*.log

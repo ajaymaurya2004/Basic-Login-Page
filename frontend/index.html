@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background: linear-gradient(45deg,yellow,orange);
+      }
+      div {
+        margin: auto;
+      }
+      .slide-in-text {
+  animation-duration: 3s; /* Duration of the animation */
+  animation-name: slidein; /* Name of the @keyframes rule */
+  animation-iteration-count: infinite; /* Repeats forever */
+  animation-direction: alternate; /* Plays forward then backward */
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; /* Start off-screen to the right */
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%; /* End at the normal position */
+    width: 100%;
+  }
+}
+
+    </style>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/heart.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
